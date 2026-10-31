@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f8fafc; /* Equivalente a bg-slate-50 */
+  color: #1e293b;            /* Equivalente a text-slate-800 */
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Efecto suave para modales y sliders */
+input[type="range"] {
+  accent-color: #E3000B;
+}
